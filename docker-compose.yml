@@ -1,0 +1,6 @@
+  tools:
+    image: robertdcurrier/devbox:latest
+    user: "${UID}:${GID}"
+    command: tail -f /dev/null
+    volumes:
+      - .:/devbox
