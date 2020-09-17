@@ -3,4 +3,5 @@
     user: "${UID}:${GID}"
     command: tail -f /dev/null
     volumes:
-      - .:/devbox
+      - ~/src/apps/devbox/src:/devbox
+      - /data/devbox:/data/devbox
