@@ -15,6 +15,4 @@ docker build -t devbox .
 
 # Up time
 echo "PRODUCTION ENVIRONMENT ENABLED!"
-export UID=${UID}
-export GID=${GID}
 docker-compose -f docker-compose.yml up -d
